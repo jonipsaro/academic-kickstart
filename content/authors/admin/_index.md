@@ -41,9 +41,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/jonipsaro
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/jonipsaro
+#- icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/jonipsaro
 superuser: true
 user_groups:
 - Researchers
