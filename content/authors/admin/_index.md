@@ -44,6 +44,9 @@ social:
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/jonipsaro
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 superuser: true
 user_groups:
 - Researchers
