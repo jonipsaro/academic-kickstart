@@ -117,7 +117,7 @@ Cutting and joining paths <br>
 
 #### 1c: Creating a brush (5 minutes) – 10:15am-10:20am
 
-#### Exercise: Trace something [receptor, brain, etc.] (15 minutes) – End at 10:35am
+#### Exercise: Trace something &lbrack;receptor, brain, etc.&rbrack; (15 minutes) – End at 10:35am
 > Locking layers <br>
 Adding transparency
 

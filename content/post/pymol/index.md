@@ -21,7 +21,7 @@ tags:
 ---
 
 ## Overview
-I have instructed PyMOL tutorials numerous times for first year graduate students (and even occasional faculty members!).  Course materials can be found in the downloads.  An outline of the course contents is also provided
+I have instructed PyMOL tutorials numerous times for first year graduate students (and even occasional faculty members!).  Course materials can be found in the downloads.  An outline of the course contents is also provided.
 
 ----------
 ----------
@@ -40,7 +40,7 @@ I have instructed PyMOL tutorials numerous times for first year graduate student
 ### What PyMOL does and does not do:
 <ul>
   <li>PyMOL is a molecular graphics program that is primarily designed for producing publication-quality illustrations and animations.</li>
-  <li>In its purest form, PyMOL is NOT used for molecular modeling, structure manipulation, or in silico experiments.</li>
+  <li>In its purest form, PyMOL is NOT used for molecular modeling, structure manipulation, or <i>in silico</i> experiments.</li>
   <li>PyMOL is user-sponsored but runs on an open source platform.</li>
 </ul>
 
@@ -84,7 +84,7 @@ I have instructed PyMOL tutorials numerous times for first year graduate student
   <li>Both GUI and command line driven</li>
   <li>Has two GUIs (External and Internal):
     <ul>
-      <li>The <b>external</b> GUI is used for rendering images, creating animation, and controlling many of PyMOL’s setting.</li>
+      <li>The <b>external</b> GUI is used for rendering images, creating animations, and controlling many of PyMOL’s settings.</li>
       <li>The <b>internal</b> GUI is used for controlling exactly what objects and elements are displayed, how they are colored, and how they are positioned.</li>
       <li><i>Think of PyMOL as a photo shoot.  The internal GUI controls what your model is wearing and how the subject is positioned.  The external GUI controls the settings on your camera.</i></li>
     </ul>
@@ -95,8 +95,8 @@ I have instructed PyMOL tutorials numerous times for first year graduate student
 
 ### Opening Files
 <ul>
-  <li>Option 1:  Go to www.pdb.org and find the PDB file you would like.  Download the coordinates.  Then use <code>File >> Open</code> to browse and open the file.</li>
-  <li>Option 2:  Use the command line.  Simply type fetch followed by the PDB code.
+  <li>Option 1:  Go to <a href="http://www.pdb.org/">www.pdb.org</a> and find the PDB file you would like.  Download the coordinates.  Then use <code>File >> Open</code> to browse and open the file.</li>
+  <li>Option 2:  Use the command line.  Simply type <code>fetch</code> followed by the PDB code.
   </li>
 </ul>
 
@@ -129,7 +129,7 @@ fetch 3SU3
   <ol type='a'>
     <li>Click on the residue of interest.  You will see that a (sele) object has been created in the internal GUI.  You can rename this object and PyMOL will remember the selection in the future.  The selection can be edited later as well.</li>
     <li>Use the external GUI can click <code>Display >> Sequence On</code>.  This will show you the amino acid sequence of the structure.  You can select residues by clicking on them.</li>
-    <li>Use the sele command line command.  This command is very powerful, but may take some time to get the hang of.</li>
+    <li>Use the <code>select</code> command line command.  This command is very powerful, but may take some time to get the hang of.</li>
   </ol>
 </ol>
 
@@ -154,25 +154,25 @@ select file1chainB, file1 and chain B
 ```
 
 <ol start='4'>
-  <li>Distances and angles can be measured using the Measurement Wizard.  The Wizard can be found under <code>Wizard >> Measurement</code>.
+  <li>Distances and angles can be measured using the measurement wizard.  The wizard can be found under <code>Wizard >> Measurement</code>.
     <ol type='a'>
       <li>To measure distances, you will simply need to click each atom.  After clicking the second atom, a dashed line and distance (in Angstroms) will appear.</li>
-      <li>To measure angles, you will need to first change the measurement mode from Distances to Angles in the lower right corner of the internal GUI.  Then click on three atoms.  The angle will be displayed.</li>
+      <li>To measure angles, you will need to first change the measurement mode from <code>Distances</code> to <code>Angles</code> in the lower right corner of the internal GUI.  Then click on three atoms.  The angle will be displayed.</li>
     </ol>
   </li>
 
   <li>Other useful display features:
     <ol type='a'>
-      <li>Electrostatics can be generated using the Action button for an object.  Simply click <code>Action >> generate >> vacuum electrostatics</code>.  Note that these are rather quick-and-dirty (i.e. not publishable) but can give a nice approximation of the electrostatic surface.  For a publishable electrostatic surface, plug-ins are required such as APBS.</li>
-      <li>Symmetry-related molecules can also be generated using the action button.  This is particularly useful if a molecule adopts a symmetric structure that is coincident with a crystallographic axis.  Simply click <code>Action >> generate >> symmetry mates</code> and select a distance  (5 Å is usually good enough).  You can then hide the molecules that you are not interested in (or delete them altogether)</li>
+      <li>Electrostatics can be generated using the <code>Action</code> button for an object.  Simply click <code>Action >> generate >> vacuum electrostatics</code>.  Note that these are rather quick-and-dirty (i.e. not publishable) but can give a nice approximation of the electrostatic surface.  For a publishable electrostatic surface, plug-ins are required such as APBS.</li>
+      <li>Symmetry-related molecules can also be generated using the <code>Action</code> button.  This is particularly useful if a molecule adopts a symmetric structure that is coincident with a crystallographic axis.  Click <code>Action >> generate >> symmetry mates</code> and select a distance  (5 Å is usually good enough).  You can then hide the molecules that you are not interested in (or delete them altogether)</li>
     </ol>
   </li>
   
   <li>Alignment
     <ol type='a'>
       <li>One of the most useful features that PyMOL boasts is a native three-dimensional alignment algorithm.</li>
-      <li>Alignment of two objects can be performed simply using the align -or- super commands line command.</li>
-      <li>Note that alignments can be performed between entire structure depositions, specific chains, or even selected residues.  Simply define your selection (described above), name them, and use the align command to superpose one molecule onto the other.</li>
+      <li>Alignment of two objects can be performed simply using the <code>align</code> -or- <code>super</code> command line commands.</li>
+      <li>Note that alignments can be performed between entire structure depositions, specific chains, or even selected residues.  Define your selection (described above), name them, and use the align command to superpose one molecule onto the other.</li>
     </ol>
   </li>
 </ol>
@@ -197,7 +197,7 @@ align my_selection1, my_selection2
   <li>Changing the background, general appearance, and rendering options can be accomplished using the eternal GUI Setting menu.  These are pretty straightforward.</li>
   <li>Ray tracing will provide you with high resolution images.  There are two options to initiate a ray trace: you can use the external GUI or the command line.
     <ol type='a'>
-      <li>If using the external GUI simply click the Ray button at the top right corner of the GUI.</li>
+      <li>If using the external GUI, click the <code>Ray</code> button at the top right corner of the GUI.</li>
       <li>The command line can also be used.  The command line affords more flexibility in outputting an image of defined size.</li>
     </ol>
   </li>
@@ -209,7 +209,7 @@ ray 2400,3600
 ```
 
 <ol start='3'>
-  <li>Saving images can be accomplished at any time simply by using the selecting <code>File >> Save Image As</code> in the external GUI.  Alternatively, the command line can be used as below.</li>
+  <li>Saving images can be accomplished at any time by using the selecting <code>File >> Save Image As</code> in the external GUI.  Alternatively, the command line can be used as below.</li>
 </ol>
 
 ```python
@@ -223,7 +223,7 @@ png MyImage.png
 ### Other things to note:
 <ul>
   <li>PyMOL has a very powerful scripting language.  Everything that can be done with the GUI can be done by the command line (and more!).   Scripting allows you to either save your commands as you execute them or just write code from scratch.  This is invaluable when the same actions need to be performed repetitively or when something very minor changes in your coordinate.</li>
-  <li>There are many other graphics programs, but PyMOL seems to be the most popular.  Other programs that you may hear about include RasMOL, Raster3D, MolScript, Chimera, etc.</li>
+  <li>There are many other graphics programs, but PyMOL seems to be the most popular.  Other programs that you may hear about include RasMOL, Raster3D, MolScript, Chimera, etc.  With cryoEM data becoming more and more prevalent, Chimera is especially becoming a more popular tool in the field.</li>
 </ul>
 
 ### Useful links:
