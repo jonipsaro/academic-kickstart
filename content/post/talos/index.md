@@ -23,7 +23,7 @@ tags:
 
 ### Overview
 This protocol is to serve as a basic outline for collecting screening images on the Talos TEM.
-A few important notes:
+<br>A few important notes:
 <ul>
 	<li>Scope alignment and maintenance are not included.  This protocol assumes a well-aligned microscope.</li>
 	<li>Staining protocols have not yet been included.</li>
