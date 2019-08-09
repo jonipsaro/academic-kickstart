@@ -56,7 +56,7 @@ Also note that advanced settings for collecting data with minimal dosage are not
 			<li>Insert the wand such that the pin is approximately at 2 o'clock.</li>
 			<li>Rotate the wand clockwise smartly until it is at the 5 o'clock position.</li>
 			<li>Immediately push the wand in approximately 1/4 inch until it stops.</li>
-			<li>Wait for the air lock protocol to complete (this is automatic, check the Search menu for the countdown).</li>
+			<li>Wait for the air lock protocol to complete (this is automatic, check the <code>Setup >> Vacuum</code> menu for the countdown).</li>
 			<li>Rotate the wand such that the pin will be at the 12 o'clock positon.</li>
 			<li>Allow the vacuum to pull the wand into the instrument.  Provide gentle resistance to control the rate of insertion.</li>
 			<li>Tap Tap (for good luck :four_leaf_clover:)</li>
