@@ -23,8 +23,12 @@ tags:
 
 ### Overview
 This protocol is to serve as a basic outline for collecting screening images on the Talos TEM.
-Note that staining protocols have not yet been included.
-Also note that advanced settings for collecting data with minimal dosage are not yet included.
+A few important notes:
+<ul>
+	<li>Scope alignment and maintenance are not included.  This protocol assumes a well-aligned microscope.</li>
+	<li>Staining protocols have not yet been included.</li>
+	<li>Advanced settings for collecting data with minimal dosage are not yet included.</li>
+</ul>
 
 ### Initial Setup
 <ol>
@@ -74,10 +78,10 @@ Also note that advanced settings for collecting data with minimal dosage are not
 	<li>Make sure that the screen is inserted.  <code>Flucam Viewer Window >> Insert Screen</code>.</li>
 	<li>Use the control panel <code style='color:royalblue;background-color:#F6F6FF'>joystick</code> to inspect the grid while at low magnification (~500x).  The beam spread and position can be adjusted using the Intensity and Track Ball controls on the control panel, respectively.</li>
 	<li>Use the control panel interface to set the <code style='color:royalblue;background-color:#F6F6FF'>Magnification</code> to SA 2600x.</li>
-	<li>Set the eucentric height
+	<li>Set the eucentric height.
 		<ol type="a">
 			<li>Check the eucentric height by alternating the tilt angle (alpha) from 0 to 20 degrees.  <code>Search >> [popout menu] >> Set Alpha</code>.</li>
-			<li>Adjust as needed using the <code style='color:royalblue;background-color:#F6F6FF'>Z-axis adjustment buttons</code> on the control panel.  The goal is the center of the viewfinder to remain on the same spot when alternating between the tilt angles.</li>
+			<li>Adjust as needed using the <code style='color:royalblue;background-color:#F6F6FF'>Z-axis adjustment buttons</code> on the control panel.  The goal is for the center of the viewfinder to remain on the same spot when alternating between the tilt angles.</li>
 		</ol>
 	<li>Zoom in as needed (<code style='color:royalblue;background-color:#F6F6FF'>Magnification</code> on the control panel) and inspect for good regions of the grid.  <code>Low Dose >> Focus</code>.</li>
 	<li>Find focus by using the TEM Imaging and Analysis window.
