@@ -83,8 +83,8 @@ This protocol is to serve as a basic outline for collecting screening images on 
 			<li>Check the eucentric height by alternating the tilt angle (alpha) from 0 to 20 degrees.  <code>Search >> [popout menu] >> Set Alpha</code>.</li>
 			<li>Adjust as needed using the <code style='color:royalblue;background-color:#F6F6FF'>Z-axis adjustment buttons</code> on the control panel.  The goal is for the center of the viewfinder to remain on the same spot when alternating between the tilt angles.</li>
 		</ol>
-	<li>Zoom in as needed (<code style='color:royalblue;background-color:#F6F6FF'>Magnification</code> on the control panel) and inspect for good regions of the grid.  <code>Low Dose >> Focus</code>.</li>
-	<li>Find focus by using the TEM Imaging and Analysis window.
+	<li>Zoom in as needed (<code style='color:royalblue;background-color:#F6F6FF'>Magnification</code> on the control panel) and inspect for good regions of the grid.
+	<li>Find focus by using the TEM Imaging and Analysis window.  <code>Low Dose >> Focus</code>.</li>
 		<ol type="a">
 			<li>Retract the screen (<code>Flucam Viewer Window >> (Insert Screen)</code>).</li>
 			<li>Activate the CCD/TV Camera.  <code>Low Dose >> CCD/TV Camera >> [popout] >> Mode >> Continuous</code>.</li>
