@@ -180,7 +180,7 @@ tags:
 
 
 ### Clip and transfer grids
-<i>Note:  Keep all tools below the nitrogen level to avoid ice contamination.</i>
+<i>Note:  Replace the wands and forceps in the transfer station and allow them to eqilibrate.  While clipping and transferring, keep all tools below the nitrogen level to avoid ice contamination.</i>
 <ol>
 	<li>Transfer the grid storage box to one well in the specimen transfer pedestal.</li>
 	<li>Loosen the top of the grid storage box with a screwdriver</li>
