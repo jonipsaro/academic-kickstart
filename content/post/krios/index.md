@@ -9,7 +9,7 @@ image:
   caption: 'Protocol overview and tips for cryo-EM sample preparation'
   focal_point: "top"
   preview_only: false
-lastmod: "2019-06-30T00:00:00Z"
+lastmod: "2019-10-30T00:00:00Z"
 projects: [Outreach]
 title: 'Cryo-EM Sample Preparation'
 subtitle: 'Step-by-step notes for cryo-EM sample preparation and loading  :snowflake:'
@@ -90,7 +90,7 @@ tags:
 ### Apply samples and plunge freeze
 <ol>
 	<li>Install one set of the grid-loaded Leica forceps on the loading piston.</li>
-	<li>Initialize the loading protocol either with the touch screen or food pedal.  The humidified chamber should lower into place.</li>
+	<li>Initialize the loading protocol either with the touch screen or foot pedal.  The humidified chamber should lower into place.</li>
 	<li>Using the side-entry port, apply 4 uL of sample to the grid with a pipet.</li>
 	<li>Advance the protocol with the foot pedal.  The pre-blotting countdown will begin, after which the blotting and plunging will automatically proceed.</li>
 	<li>After plunging, the chamber should raise.  Advance the protocol once more with the foot pedal.  The piston should raise slightly, but the grid should remain submerged in the cryogen.</li>
@@ -220,7 +220,7 @@ tags:
 	<li><div style='background:pink; color:darkred'><b>CRITICAL:</b>  Do not fully load a cassette!  If there is already a grid on the scope, you will be stuck!  Typically, we will leave the first position empty.</div></li>
 	<li>Using the Flat-T autoloader forceps, transfer each clipped grid to the autoloader cassette.  Each clipped grid should be placed such that is is held in place, just above the bottom of each "L".  It should look like <code>L---&#8515;</code> from above.</li>
 	<li>Continue loading all of the clipped grids into the autoloader cassette.</li>
-	<li>Once all grids have been loaded, ensure that the autoloader transfer canister is cool.</li>
+	<li>Once all grids have been loaded, ensure that the autoloader transfer canister (NanoCab) is cool.</li>
 	<li>Remove the exit hatch cover and install the autoloader transfer canister.</li>
 	<li>Use the cassette holder to grab the autoloader cassette and quickly move it to the canister via the exit hatch.</li>
 	<li>Remove the canister from the transfer station.  Ensure that the cassette is properly seated (it should be below the surface of the nitrogen and the pin a the top of the canister should extend.)
@@ -230,10 +230,10 @@ tags:
 <ol>
 	<li>Ensure that there is not currently a cassette in the microscope.</li>
 	<li>Open the front access panel to the Titan Krios.</li>
-	<li>Install the canister, curve side first, in the loading position.  The green light should activate.</li>
+	<li>Install the NanoCab canister, curve side first, in the loading position.  The green light should activate.</li>
 	<li>Press the green button.</li>
-	<li>Wait for the cassette to be loaded.  When the protocol completes, the cassette should be visible through the viewing window and the green button should turn off.</li>
-	<li>Remove the canister, discard the remaining nitrogen, and place the canister in the drying oven.</li>
+	<li>Wait for the cassette to be loaded.  When the protocol completes, the cassette should be visible through the viewing window and the white button should turn off.</li>
+	<li>Remove the NanoCab canister, discard the remaining nitrogen, and place the canister in the drying oven.</li>
 </ol>
 
 ### Clean up
