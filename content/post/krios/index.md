@@ -9,7 +9,7 @@ image:
   caption: 'Protocol overview and tips for cryo-EM sample preparation'
   focal_point: "top"
   preview_only: false
-lastmod: "2019-10-30T00:00:00Z"
+lastmod: "2019-11-06T00:00:00Z"
 projects: [Outreach]
 title: 'Cryo-EM Sample Preparation'
 subtitle: 'Step-by-step notes for cryo-EM sample preparation and loading  :snowflake:'
@@ -38,7 +38,6 @@ tags:
 ### Prepare the Leica apparatus
 <ol>
 	<li>Using a 60 mL syringe connected to the luer lock valve on the right of the instrument, fill the humidifier chamber with 90 mL of deionized water.</li>
-	<li>Install a fresh piece of blotting paper.  It is held in place by a thin, magnetic ring.</li>
 	<li>Place the following components in the indicated locations within the plunging chamber:
 		<ul>
 			<li>Cryogen holder for liquid ethane - 12 o'clock</li>
@@ -89,6 +88,7 @@ tags:
 
 ### Apply samples and plunge freeze
 <ol>
+	<li>If this is the first sample or the blotting paper is spent, install a fresh piece of blotting paper.  It is held in place by a thin, magnetic ring.</li>
 	<li>Install one set of the grid-loaded Leica forceps on the loading piston.</li>
 	<li>Initialize the loading protocol either with the touch screen or foot pedal.  The humidified chamber should lower into place.</li>
 	<li>Using the side-entry port, apply 4 uL of sample to the grid with a pipet.</li>
@@ -114,6 +114,7 @@ tags:
 	<li>Rotate the grid box cover such that all slots are fully covered.</li>
 	<li>Tighten the grid box cover with a screw driver.</li>
 	<li>With forceps, transfer the grid box to the small Leica/Vitrobot transport dewar.</li>
+	<li>If freezing additional boxes of grids add additional liquid nitrogen to the grid box reservoir. It is easier if this is done while covering the ethane/cryogen reservoir with its lid, just be sure to remove the lid before continuing.</li>
 	<li>Continue as above for all samples. When finished, store the grid boxes in a long-term liquid nitrogen storage dewar.</li>
 </ol>
 
