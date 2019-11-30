@@ -2,14 +2,14 @@
 authors:
 - admin
 categories: []
-date: "2019-06-30T00:00:00Z"
+date: "2019-11-01T00:00:00Z"
 draft: false
 featured: false
 image:
   caption: 'Handouts and resources for the PyMOL tutorial'
   focal_point: "top"
   preview_only: false
-lastmod: "2019-06-30T00:00:00Z"
+lastmod: "2019-11-01T00:00:00Z"
 projects: [Outreach]
 title: 'PyMOL Tutorial 2018'
 subtitle: 'Understand .pdb files and make molecular graphics  :computer:'
@@ -18,6 +18,7 @@ tags:
 - Outreach
 - PyMOL
 - PDB
+- Featured
 ---
 
 ## Overview

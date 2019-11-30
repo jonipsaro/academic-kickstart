@@ -17,6 +17,7 @@ summary: Showcase your science with polished graphics
 tags:
 - Outreach
 - Adobe Illustrator
+- Featured
 ---
 
 ## Overview

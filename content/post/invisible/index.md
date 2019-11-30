@@ -2,14 +2,14 @@
 authors:
 - admin
 categories: []
-date: "2019-06-30T00:00:00Z"
+date: "2019-10-30T00:00:00Z"
 draft: false
 featured: false
 image:
   caption: 'How do we see the invisible?'
   focal_point: "top"
   preview_only: false
-lastmod: "2019-06-30T00:00:00Z"
+lastmod: "2019-10-30T00:00:00Z"
 projects: [Outreach]
 title: 'How do we see the invisible?'
 subtitle: 'Structural biology for the general public :crystal_ball:'
@@ -17,6 +17,7 @@ summary: Structural biology for the general public
 tags:
 - Outreach
 - Structural biology
+- Featured
 ---
 
 

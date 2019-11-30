@@ -2,14 +2,14 @@
 authors:
 - admin
 categories: []
-date: "2019-08-21T00:00:00Z"
+date: "2019-11-29T00:00:00Z"
 draft: false
 featured: false
 image:
   caption: 'Titan Krios Data Acquisition Setup'
   focal_point: "top"
   preview_only: false
-lastmod: "2019-11-19T00:00:00Z"
+lastmod: "2019-11-29T00:00:00Z"
 projects: [Outreach]
 title: 'Cryo-EM Data Acquisition with EPU'
 subtitle: 'Quick Reference for cryo-EM data acquisition using EPU on the Titan Krios  :snowflake:'
@@ -18,6 +18,7 @@ tags:
 - Cryo-EM
 - Instructions
 - Protocols
+- Featured
 ---
 
 ## Overview
@@ -35,8 +36,10 @@ Setting up data collection can be divided into these main steps:
 <hr>
 
 ## Step 0 - Run Setup
-### Part 1 - Gain Reference Collection --- THIS PART IS NOT YET COMPLETE
+
+### Part 1 - Gain Reference Collection
 <div style='background:pink; color:darkred'><B>CRITICAL:</B>  For Gain Reference Collection, Data Acquisition parameters must already be set.</div>
+
 <ol>
 	<li>Navigate to an empty grid square.</li>
 	<li>Check that the acquisiton parameters in EPU are reasonable.  <code>Preparation >> Data Acquisition >> Preview</code></li>
@@ -50,7 +53,7 @@ Setting up data collection can be divided into these main steps:
 	<li>When the gain reference if completed, open the Gatan camera.  <code>View</code></li>
 	<li>Also activate the FFT window.</li>
 	<li>Both the main window and the FFT should be flat, indicating the gain reference is correct.</li>
-<ol>
+</ol>
 
 ### Part 2 - Tune the GIF
 <ol>
@@ -62,6 +65,8 @@ Setting up data collection can be divided into these main steps:
 	<li>Set the spot size to 5 using the microscope control pad.</li>
 	<li>On the Gatan computer <code>Tune GIF >> Full</code>.</li>
 </ol>
+
+<hr>
 
 ## Step 1 - Image Shift Calibration
 <div style='background:pink; color:darkred'><B>CRITICAL:</B>  For the Image Shift Calibration, it is obligatory that all Preparation modes (Atlas, Grid Square, Hole/Eucentric Height, Data Acquisition/Auto Focus) are already set.</div>
