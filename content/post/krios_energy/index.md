@@ -44,7 +44,7 @@ There are three main places that energy settings must be imported:
 <ol>
 	<li>Open the <code>Alignments</code> tab.</li>
 	<li>Select the appropriate alignments file (e.g. 200 kV_MC for 200 kV settings).</li>
-	<li>Available settings will propagate in the "available" window.  Select all of them by clicking on one, then hitting <code>Ctrl+A</code>.  Click the <code><</code> arrow to move the selected parameters to thos ebeing used.</li>
+	<li>Available settings will propagate in the "available" window.  Select all of them by clicking on one, then hitting <code>Ctrl+A</code>.  Click the <code><</code> arrow to move the selected parameters to those being used.</li>
 	<li>Click <code>Apply</code>.</li>
 	<li>Wait overnight for the microscope to stabilize before collecting data.  Some preliminary work can be done once the energy has stabilized.</li>
 	<li>Perform a quick beam center.  Lift the screen.  <code>Direct Alignments >> Beam Center</code>, adjust with Multifunction X and Y on the control pad, then click <code>Done</code> on the Direct Aligments tab.
