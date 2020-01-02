@@ -9,7 +9,7 @@ image:
   caption: 'Titan Krios Data Acquisition Setup'
   focal_point: "top"
   preview_only: false
-lastmod: "2019-11-29T00:00:00Z"
+lastmod: "2020-01-02T00:00:00Z"
 projects: [Outreach]
 title: 'Cryo-EM Data Acquisition with EPU'
 subtitle: 'Quick Reference for cryo-EM data acquisition using EPU on the Titan Krios  :snowflake:'
@@ -50,7 +50,7 @@ Setting up data collection can be divided into these main steps:
 	<li>Insert the screen.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer.  You will need to adjust the beam intensity.  Use the numbers on the Gatan display and adjust to the required value.</li>
 	<li>Additionally, collect a dark reference.  When doing this <code>Close column valves</code>.</li>
-	<li>When the gain reference if completed, open the Gatan camera.  <code>View</code></li>
+	<li>When the gain reference is completed, open the Gatan camera.  <code>View</code></li>
 	<li>Also activate the FFT window.</li>
 	<li>Both the main window and the FFT should be flat, indicating the gain reference is correct.</li>
 </ol>
@@ -60,7 +60,7 @@ Setting up data collection can be divided into these main steps:
 	<li><code>Center ZLP</code>.</li>
 	<li><code>View</code>.  This should again be flat.</li>
 	<li><code>Stop View</code>.</li>
-	<li>Using the microscope computer, put in the condenser aperature.  If needed, the position of the slit can be moved manually.  To do so, click on the Gatan Filter Control Window (<code>Gatan >> Windows >> FIlter Control</code>) and use the keyboard arrow keys to adjust.</li>
+	<li>Using the microscope computer, put in the condenser aperature.  If needed, the position of the slit can be moved manually.  To do so, click on the Gatan Filter Control Window (<code>Gatan >> Windows >> Filter Control</code>) and use the keyboard arrow keys to adjust.</li>
 	<li><code>Stop View</code></li>
 	<li>Set the spot size to 5 using the microscope control pad.</li>
 	<li>On the Gatan computer <code>Tune GIF >> Full</code>.</li>
@@ -124,7 +124,7 @@ Setting up data collection can be divided into these main steps:
 	</li>
 	<li>Alternatively, set the following parameters for Quantifoil grids:
 		<ul>
-			<li>Minimum Image Shift = 9 um</li>
+			<li>Maximum Image Shift = 9 um</li>
 			<li>Delay after Image Shift = 1.5 seconds</li>
 			<li>Delay after Stage Shift = 2 seconds</li>
 		</ul>
@@ -186,7 +186,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 
 ### Part 4 - Initial Astigmatism Correction and Coma-Free Alignment
 <ol>
-	<li>Open the Sherpa window</li>
+	<li>Open the Sherpa window.  If Sherpa is not already running, it can be launched from <code>Microscope Software Launcher >> Tools >> Sherpa<code>.</li>
 	<li>Use the control panel to dial in approximately -1.1 um defocus (note: this may vary depending on the magnification being used)</li>
 	<li>Check and/or set the following parameters:</li>
 		<ul>Type: EF-CCD</ul>
@@ -239,5 +239,5 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 ## Step 5 - Final Touches and Start
 <ol>
 	<li>Center the ZLP. <code>Gatan Window >> Center ZLP</code></li>
-	<li>Start the automated acquisition <code>EPU >> Automated Acquistion >> GO!</code></li>
+	<li>Start the automated acquisition <code>EPU >> Automated Acquistion >> Start Run!</code></li>
 </ol>
