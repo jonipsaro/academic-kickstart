@@ -11,7 +11,7 @@ image:
   preview_only: false
 lastmod: "2019-06-30T00:00:00Z"
 projects: [Outreach]
-title: 'Adobe Illustrator Workshop 2018'
+title: 'Adobe Illustrator Workshop 2019'
 subtitle: 'Showcase your science with polished graphics  :star2:'
 summary: Showcase your science with polished graphics
 tags:
