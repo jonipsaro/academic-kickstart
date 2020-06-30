@@ -81,7 +81,7 @@ Setting up data collection can be divided into these main steps:
 	<li>Check the grid square.  <code>Preparation >> Grid Square >> Preview</code>.</li>
 	<li>Determine the eucentric height  <code>Auto Functions >> Hole/Eucentric Height >> Auto-eucentric by beam tilt.</code></li>
 	<li>Set the microscope parameters to match the Data Acqusition settings. <code>Preparation >> Data Acquisition >> Set</code>.</li>
-	<li>Move to the microscope computer.  Lift the screen.  Use the control panel joystick to make fine manipulations onto the landmark.</li>
+	<li>Move to the microscope computer.  Insert the screen.  Use the control panel joystick to make fine manipulations onto the landmark.  Retract the screen when finished.</li>
 </ol>
 
 ### Part 3 - Perform Image Shift Calibration
@@ -143,12 +143,13 @@ Setting up data collection can be divided into these main steps:
 <ol>
 	<li>Use EPU to navigate to a new grid square.  Move to an empty hole for best contrast.</li>
 	<li>Determine the eucentric height. <code>Auto functions >> Hole Eucentric >> Eucentric Height by Beam Tilt</code></li>
+	<li>Position the beam on the edge of an empty hole.  This can be done using the EPU controls or by using the joystick on the control panel if the screen is inserted.</li>
 </ol>
 
 ### Part 2 - Initial Focus Determination
 Overview:  This part of the protocol will serve to tune the eucentric height and find focus.  It will be refined in Part 5.
 <ol>
-	<li>Lift the screen</li>
+	<li>Insert the screen</li>
 	<li>Set the eucentric height manually
 		<ol type="a">
 			<li>Set the microscope optics to the Data Acquisition setting. <code>Preparation >> Data Acquisition >> SET</code></li>
@@ -161,10 +162,10 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 	<li>Use the control panel joystick to move the beam over some carbon.</li>
 	<li>Find focus using the Gatan computer
 		<ol type="a">
-			<li>Insert the screen</li>
+			<li>Retract the screen</li>
 			<li>Activate the Gatan camera. <code>View</code></li>
 			<li>Using the FFT window, find focus.  Use the defocus knob on the control panel and adjust until no Thon rings are apparent.</li>
-			<li>Reset the defocus to 0 using the control panel</li>
+			<li>Reset the defocus to 0 using the control panel.</li>
 			<li>Deactivate the Gatan camera. <code>Stop View</code></li>
 		</ol>
 	</li>
@@ -172,8 +173,8 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 
 ### Part 3 - Initialize Direct Alignments
 <ol>
-	<li>Lift the screen</li>
-	<li>Activate the direct aligments menu (bottom right)</li>
+	<li>Insert the screen.</li>
+	<li>Activate the direct aligments menu (bottom right).</li>
 	<li>Sequentially adjust the alignments:
 		<ol type="a">
 			<li>nP beam tilt ppX (use multifunction X to minimize movement)</li>
@@ -182,6 +183,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 			<li>rotation center (minimize movement; use both knobs)</li>
 		</ol>
 	</li>
+	<li>Click <code>Done</code> when finished.
 </ol>
 
 ### Part 4 - Initial Astigmatism Correction and Coma-Free Alignment
@@ -224,7 +226,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 	<li>Correct the coma. <code>Correct</code></li>
 	<li>Measure the objective stigmation. <code>Measure</code>.  Correct if needed.</li>
 	<li>Cycle between the objective stigmation and coma-free alignment until both are accurate and the errors are small.</li>
-	<li>The last step should correction of the objective stigmation.</li>
+	<li>The last step should be measurement of the objective stigmation with the astigmatism measuring 1 nm or less.</li>
 	<li>Insert the screen.</li>
 </ol>
 
@@ -239,5 +241,6 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 ## Step 5 - Final Touches and Start
 <ol>
 	<li>Center the ZLP. <code>Gatan Window >> Center ZLP</code></li>
+	<li><div style='background:pink; color:darkred'><B>CRITICAL:</B>  Double check that the stage rotation (alpha) is set to zero and that the Turbo pump is OFF.</div></li>
 	<li>Start the automated acquisition <code>EPU >> Automated Acquistion >> Start Run!</code></li>
 </ol>
