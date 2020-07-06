@@ -4,7 +4,7 @@ authors:
 categories: []
 date: "2019-11-01T00:00:00Z"
 draft: false
-featured: false
+featured: true
 image:
   caption: 'Handouts and resources for the PyMOL tutorial'
   focal_point: "top"

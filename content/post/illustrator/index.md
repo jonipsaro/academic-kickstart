@@ -4,7 +4,7 @@ authors:
 categories: []
 date: "2019-06-30T00:00:00Z"
 draft: false
-featured: false
+featured: true
 image:
   caption: 'Handouts and resources for the Adobe Illustrator tutorial'
   focal_point: "top"

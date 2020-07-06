@@ -4,14 +4,14 @@ authors:
 categories: []
 date: "2019-11-29T00:00:00Z"
 draft: false
-featured: false
+featured: true
 image:
   caption: 'Titan Krios Data Acquisition Setup'
   focal_point: "top"
   preview_only: false
-lastmod: "2020-01-02T00:00:00Z"
+lastmod: "2020-07-01T00:00:00Z"
 projects: [Outreach]
-title: 'Cryo-EM Data Acquisition with a K2 detector and EPU [Deprecated]'
+title: 'Cryo-EM Data Acquisition with a K3 detector and EPU'
 subtitle: 'Quick Reference for cryo-EM data acquisition using EPU on the Titan Krios  :snowflake:'
 summary: Quick Reference for cryo-EM data acquisition using EPU on the Titan Krios
 tags:
@@ -38,21 +38,26 @@ Setting up data collection can be divided into these main steps:
 ## Step 0 - Run Setup
 
 ### Part 1 - Gain Reference Collection
-<div style='background:pink; color:darkred'><B>CRITICAL:</B>  For Gain Reference Collection, Data Acquisition parameters must already be set.</div>
+<div style='background:pink; color:darkred'><B>CRITICAL:</B>  For Gain Reference Collection, Data Acquisition parameters must already be set and the ZLP should be centered.</div>
 
 <ol>
 	<li>Navigate to an empty grid square.</li>
 	<li>Check that the acquisiton parameters in EPU are reasonable.  <code>Preparation >> Data Acquisition >> Preview</code></li>
 	<li>On the microscope computer, set the <code>Aperature</code> to 150.</li>
-	<li>Using the microscope control panel, set the spot size (4 for 200 kV; 3 for 300 kV).</li>
+	<li>Using the microscope control panel, set the spot size to 3.</li>
+	<li>On the microscope computer, insert the screen and check for fringes.  If fringes are present, adjust the beam intensity using the control panel knobs and the beam position using the track ball.</li>
+	<li>Gain references will need to be collected in both linear and counted modes.  Begin by setting the camera to linear mode.</li>
 	<li>Prepare gain references on the Gatan Computer.  <code>Camera >>  Prepare Gain References</code>.  Click <code>OK</code></li>
-	<li>On the microscope computer, lift the screen and check for fringes.  If fringes are present, adjust the beam intensity using the control panel knobs.</li>
-	<li>Insert the screen.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer.  You will need to adjust the beam intensity.  Use the numbers on the Gatan display and adjust to the required value.</li>
-	<li>Additionally, collect a dark reference.  When doing this <code>Close column valves</code>.</li>
-	<li>When the gain reference is completed, open the Gatan camera.  <code>View</code></li>
+	<li>When the gain reference is completed, open the Gatan camera.  <code>View</code>.
 	<li>Also activate the FFT window.</li>
 	<li>Both the main window and the FFT should be flat, indicating the gain reference is correct.</li>
+	<li>Adjust the optics to <code>Data Acquisition</code> settings.  This can be done manually, or preferably with EPU.</li>
+	<li>Center the beam using the <code>Alignments</code> menu on the microscope computer.</li>
+	<li>The Gain References are now completed for Linear mode.  The process is then repeated (with minor modifications) for counted mode.</li>
+	<li>Change the Gatan collection mode to <code>Counted</code>.</li>
+	<li>First, set the <code>Aperature</code> to 70 and the spot size to 5.</li>
+	<li>Prepare the Gain References for counted mode.  <code>Camera >> Prepare Gain References</code>.  Make sure to activate <code>Expert Mode</code>.  Set the dose rate based on the expected dose to be collected during acquisition (in Angstroms/pixel).</li>
 </ol>
 
 ### Part 2 - Tune the GIF
@@ -60,10 +65,14 @@ Setting up data collection can be divided into these main steps:
 	<li><code>Center ZLP</code>.</li>
 	<li><code>View</code>.  This should again be flat.</li>
 	<li><code>Stop View</code>.</li>
-	<li>Using the microscope computer, put in the condenser aperature.  If needed, the position of the slit can be moved manually.  To do so, click on the Gatan Filter Control Window (<code>Gatan >> Windows >> Filter Control</code>) and use the keyboard arrow keys to adjust.</li>
+	<li>Using the microscope computer, set the <code>Condenser Aperature</code> to 150.</li>
+	<li>If needed, the position of the slit can be moved manually.  To do so, click on the Gatan Filter Control Window (<code>Gatan >> Windows >> Filter Control</code>) and use the keyboard arrow keys to adjust.</li>
 	<li><code>Stop View</code></li>
-	<li>Set the spot size to 5 using the microscope control pad.</li>
-	<li>On the Gatan computer <code>Tune GIF >> Full</code>.</li>
+	<li>Set the spot size to 3 using the microscope control pad.</li>
+	<li>Insert the screen, center the beam using the track ball, and adjust the beam size and intesity to be approximately 1.5 times the size of the green circle.  Retract the screen when finished.</li>
+	<li>The tuning needs to be performed in both linear and counted modes.  Begin with the Gatan set to <code>linear</code>.
+	<li>On the Gatan computer <code>Tune GIF >> Quick Tune</code>.  This will also center the ZLP.</li>
+	<li>When the GIF tuning is complete, an assement image will pop up on the Gatan computer.  It should look fairly flat with muddy colors.  If the GIF tuning fails completely or if the image is very colorful, it may be due to a beam intensity that is is too low.  Reinsert the screen, increase the intensity, and try again.</li>
 </ol>
 
 <hr>
@@ -81,14 +90,14 @@ Setting up data collection can be divided into these main steps:
 	<li>Check the grid square.  <code>Preparation >> Grid Square >> Preview</code>.</li>
 	<li>Determine the eucentric height  <code>Auto Functions >> Hole/Eucentric Height >> Auto-eucentric by beam tilt.</code></li>
 	<li>Set the microscope parameters to match the Data Acqusition settings. <code>Preparation >> Data Acquisition >> Set</code>.</li>
-	<li>Move to the microscope computer.  Insert the screen.  Use the control panel joystick to make fine manipulations onto the landmark.  Retract the screen when finished.</li>
+	<li>Sequentially center the stage position on the landmark at each magnification setting, ending with <code>Data Acquisition</code>.</li>
 </ol>
 
 ### Part 3 - Perform Image Shift Calibration
 <ol>
 	<li>Select <code>Preparation >> Tasks >> Calibrate Image Shifts</code>.</li>
 	<li>The Image Shift Calibration module will walk through the calibration.  To continue, click <code>Proceed</code>.</li>
-	<li>When a new setting is applied and an image is generated, adjust the calibration center by double-clicking on the corresponding spot on the right image panel.  It is advisable to re-acquire this image before moving on.  When satisfied, click <code>Proceeed</code>.</li>
+	<li>When a new setting is applied and an image is generated, adjust the calibration center by double-clicking on the corresponding spot on the right image panel.  It is advisable to re-acquire this image before moving on.  When satisfied, click <code>Proceeed</code>.  This will walk through each magnification setting, beginning from <code>Data Acquisition</code> and continuing through to <code>Atlas</code>.</li>
 </ol>
 
 <hr>
@@ -98,6 +107,7 @@ Setting up data collection can be divided into these main steps:
 <ol>
 	<li>Select <code>Atlas >> Session Setup</code>.</li>
 	<li>Enter a path for the data (the folder will be created automatically).  Images should be saved as <code>MRC</code> format.</li>
+	<li>Double-check the Atlas acquisition parameters <code>Preparation > Atlas</code>.  For screening, a magnification 135x of is used to increase speed.  For data collection atlases, a magnification of 175x is preferred.
 	<li>Begin the atlas acquisition.</li>
 </ol>
 
@@ -117,18 +127,21 @@ Setting up data collection can be divided into these main steps:
 	<li>Add the collection and focus parameters.  Defocus values that are typically used begin around -3.2 microns and continue to -1.4 microns.  To add these, enter the desired defocus value and click on the :page_facing_up: icon next to the entry field.  It should now be present in the defocus values list above.  Valeus can be removed by selecting them and clicking on the :wastebasket: icon.  Be sure to double check these and ensure that the values are negative!</li>
 	<li>Set the following parameters for Lacey carbon grids:
 		<ul>
-			<li>Spacing = 1 um</li>
-			<li>Autofocus Recurrance = 5 um</li>
-			<li>Delay after Stage Shift = 11 seconds</li>
+			<li>Delay after Image Shift = 1.5 seconds</li>
+			<li>Delay after Stage Shift = 10 seconds</li>
+			<li>Recurrance = After Distance = 10 um</li>
+			<li>Focus = Objective lens</li>
 		</ul>
 	</li>
 	<li>Alternatively, set the following parameters for Quantifoil grids:
 		<ul>
-			<li>Maximum Image Shift = 9 um</li>
 			<li>Delay after Image Shift = 1.5 seconds</li>
 			<li>Delay after Stage Shift = 2 seconds</li>
+			<li>Recurrance = After Distance = 12 um</li>
+			<li>Focus = Objective lens</li>
 		</ul>
-	</li>		
+	</li>
+	<li>If collecting from Lacey grids, use the <code>EPU >> Generate Template</code> to tile the grid square.  Use a spacing of 1.2 um.</li>
 	<li>If collecting from Quantifoil grids, beam shift collection can dramatically speed up acquisiton.  Use the <code>EPU >> Generate Template</code> to set this up.  Be sure to include one shot for Autofocus.  If you are unsure how to make an appropriate template, ask the Facility Manager.</li>
 	<li>Return to the <code>EPU >> Atlas</code> view.  The grid square should now display the eucentric height determined earlier and the number of images to be collected should be indicated in the right-most panel.</li>
 	<li>Repeat this process beginning at item 3.  It is not necessary to re-enter the collection  (item 9) as these should be preserved from earlier.  Continue adding more grid squares until there are enough for the desired collection time.</li>
@@ -154,7 +167,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 		<ol type="a">
 			<li>Set the microscope optics to the Data Acquisition setting. <code>Preparation >> Data Acquisition >> SET</code></li>
 			<li>Use the control panel joystick to move to an area where you can see the edge of the hole and some carbon.</li>
-			<li>Set the alpha angle to +/- 20 degrees.  The stage should rotate.  The goal is to adjust the Z-height of the stage such that changing alpha +/- 20 degrees keeps the center of the image in place.  Z-height can be adjusted using the control panel (rightmost buttons).</li>
+			<li>Set the alpha angle to +/- 20 degrees.  This command can be found on the microscope computer under the Stage menu (lower right corner).  You will need to activate the popout extension from the Stage parameters menu to adjust the alpha angle.  The stage should rotate.  The goal is to adjust the Z-height of the stage such that changing alpha +/- 20 degrees keeps the center of the image in place.  Z-height can be adjusted using the control panel (rightmost buttons).</li>
 			<li>When adjusting the height, it is likely necessary to toggle between alpha=0 and alpha=20.</li>
 			<li>When satisfied with the Z-height adjustment, make sure to set alpha back to 0 degrees.</li>
 		</ol>
@@ -163,6 +176,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 	<li>Find focus using the Gatan computer
 		<ol type="a">
 			<li>Retract the screen</li>
+			<li>Check the Gatan camera parameters.  The <code>exposure time</code> should be 1x.  The mode should be <code>counted</code>.
 			<li>Activate the Gatan camera. <code>View</code></li>
 			<li>Using the FFT window, find focus.  Use the defocus knob on the control panel and adjust until no Thon rings are apparent.</li>
 			<li>Reset the defocus to 0 using the control panel.</li>
@@ -190,20 +204,21 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 ### Part 4 - Initial Astigmatism Correction and Coma-Free Alignment
 <ol>
 	<li>Open the Sherpa window.  If Sherpa is not already running, it can be launched from <code>Microscope Software Launcher >> Tools >> Sherpa</code>.</li>
-	<li>Use the control panel to dial in approximately -1.1 um defocus (note: this may vary depending on the magnification being used)</li>
+	<li>Use the control panel to dial in approximately -0.9 um defocus (note: this may vary depending on the magnification being used)</li>
 	<li>Check and/or set the following parameters:</li>
 		<ul>Type: EF-CCD</ul>
-		<ul>Exposure time [s]: 3.0</ul>
+		<ul>Exposure time [s]: 2.0</ul>
 		<ul>Binning: 2</ul>
 		<ul>Readout area: Full</ul>
 		<ul>Electron counting: checked</ul>
-		<ul>Autofocus to [um]: -1.0, checked</ul>
+		<ul>Autofocus to [um]: -0.9, checked</ul>
 	<li>Measure the objective stigmation. <code>Measure</code></li>
 	<li>Correct the objective stigmation. <code>Correct</code></li>
 </ol>
 
 ### Part 5 - Focus Determination
 <ol>
+	<li>Retract the screen</li>
 	<li>Activate the Gatan camera. <code>View</code></li>
 	<li>Determine the correction from Sherpa (the defocus used is in the Sherpa window; the set defocus is listed in the current optics parameters on the microscope computer)</li>
 	<li>Adjust the current defocus by the amount calculated above.  This should get you very close to focus.</li>
@@ -215,7 +230,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 ### Part 6 - Final Astigmatism Correction and ComaFree Alignment
 <ol>
 	<li>Open the Sherpa window</li>
-	<li>Use the control panel to dial in approximately -1.1 um defocus (note: this may vary depending on the magnification being used)</li>
+	<li>Use the control panel to dial in approximately -0.9 um defocus (note: this may vary depending on the magnification being used)</li>
 	<li>Measure the objective stigmation. <code>Measure</code></li>
 	<li>Correct the objective stigmation. <code>Correct</code></li>
 	<li>Correct the coma. <code>Correct</code></li>
@@ -228,6 +243,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 <ol>
 	<li>Set the Data Acquisition optics parameters. <code>EPU >> Preparation >> Data Acquisition >> GET</code></li>
 	<li>Set the Autofocus optics parameters. <code>EPU >> Preparation >> Autofocus >> GET</code></li>
+	<li>Write down or photograph the current Hole Eucentric optics paramters.  Once you have written them down, <code>EPU >> Preparation >> Hole Eucentric >> GET</code>.  Then manually repopulate the Hole Eucentric parameters.
 </ol>
 
 <hr>
@@ -235,6 +251,11 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 ## Step 5 - Final Touches and Start
 <ol>
 	<li>Center the ZLP. <code>Gatan Window >> Center ZLP</code></li>
-	<li><div style='background:pink; color:darkred'><B>CRITICAL:</B>  Double check that the stage rotation (alpha) is set to zero and that the Turbo pump is OFF.</div></li>
+	<li><div style='background:pink; color:darkred'><B>CRITICAL - Double Check the Following:</B>
+		<ul>Microscope computer - The stage rotation (alpha) is set to zero. Stage >> Popout >> alpha</ul>
+		<ul>Microscope computer - The Turbo pump is OFF.</ul>
+		<ul>Microscope computer - The 100 um objective aperature is inserted.<BR>Note:  If the objective was not inserted, it is necessary to redo the direct alignments.</ul>
+		<ul>Gatan computer - The camera mode is Counted.</ul>
+	</div></li>
 	<li>Start the automated acquisition <code>EPU >> Automated Acquistion >> Start Run!</code></li>
 </ol>
