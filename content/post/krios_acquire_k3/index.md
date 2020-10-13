@@ -129,7 +129,7 @@ Setting up data collection can be divided into these main steps:
 		<ul>
 			<li>Delay after Image Shift = 1.5 seconds</li>
 			<li>Delay after Stage Shift = 10 seconds</li>
-			<li>Recurrance = After Distance = 10 um</li>
+			<li>Recurrance = After Distance = 12 um</li>
 			<li>Focus = Objective lens</li>
 		</ul>
 	</li>
