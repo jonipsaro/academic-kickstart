@@ -2,14 +2,14 @@
 authors:
 - admin
 categories: []
-date: "2019-11-29T00:00:00Z"
+date: "2021-05-16T00:00:00Z"
 draft: false
 featured: true
 image:
   caption: 'Titan Krios Data Acquisition Setup'
   focal_point: "top"
   preview_only: false
-lastmod: "2020-07-01T00:00:00Z"
+lastmod: "2021-05-16T00:00:00Z"
 projects: [Outreach]
 title: 'Cryo-EM Data Acquisition with a K3 detector and EPU'
 subtitle: 'Quick Reference for cryo-EM data acquisition using EPU on the Titan Krios  :snowflake:'
