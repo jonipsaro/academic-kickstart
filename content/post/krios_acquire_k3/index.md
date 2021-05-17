@@ -44,7 +44,7 @@ Setting up data collection can be divided into these main steps:
 	<li>Navigate to an empty grid square.</li>
 	<li>Check that the acquisiton parameters in EPU are reasonable.  <code>Preparation >> Data Acquisition >> Preview</code></li>
 	<li>On the microscope computer, set the <code>Aperature</code> to 150.</li>
-	<li>Using the microscope control panel, set the spot size to 3.</li>
+	<li>Using the microscope control panel, set the spot size to 2.</li>
 	<li>On the microscope computer, insert the screen and check for fringes.  If fringes are present, adjust the beam intensity using the control panel knobs and the beam position using the track ball.</li>
 	<li>Gain references will need to be collected in both linear and counted modes.  Begin by setting the camera to linear mode.</li>
 	<li>Prepare gain references on the Gatan Computer.  <code>Camera >>  Prepare Gain References</code>.  Click <code>OK</code></li>
@@ -68,7 +68,7 @@ Setting up data collection can be divided into these main steps:
 	<li>Using the microscope computer, set the <code>Condenser Aperature</code> to 150.</li>
 	<li>If needed, the position of the slit can be moved manually.  To do so, click on the Gatan Filter Control Window (<code>Gatan >> Windows >> Filter Control</code>) and use the keyboard arrow keys to adjust.</li>
 	<li><code>Stop View</code></li>
-	<li>Set the spot size to 3 using the microscope control pad.</li>
+	<li>Set the spot size to 2 using the microscope control pad.</li>
 	<li>Insert the screen, center the beam using the track ball, and adjust the beam size and intesity to be approximately 1.5 times the size of the green circle.  Retract the screen when finished.</li>
 	<li>The tuning needs to be performed in both linear and counted modes.  Begin with the Gatan set to <code>linear</code>.
 	<li>On the Gatan computer <code>Tune GIF >> Quick Tune</code>.  This will also center the ZLP.</li>
@@ -95,7 +95,7 @@ Setting up data collection can be divided into these main steps:
 
 ### Part 3 - Perform Image Shift Calibration
 <ol>
-	<li>Select <code>Preparation >> Tasks >> Calibrate Image Shifts</code>.</li>
+	<li>Select <code>Preparation >> Tasks >> Calibrate Image Shifts >> Start Calibration</code>.</li>
 	<li>The Image Shift Calibration module will walk through the calibration.  To continue, click <code>Proceed</code>.</li>
 	<li>When a new setting is applied and an image is generated, adjust the calibration center by double-clicking on the corresponding spot on the right image panel.  It is advisable to re-acquire this image before moving on.  When satisfied, click <code>Proceeed</code>.  This will walk through each magnification setting, beginning from <code>Data Acquisition</code> and continuing through to <code>Atlas</code>.</li>
 </ol>
@@ -128,8 +128,8 @@ Setting up data collection can be divided into these main steps:
 	<li>Set the following parameters for Lacey carbon grids:
 		<ul>
 			<li>Delay after Image Shift = 1.5 seconds</li>
-			<li>Delay after Stage Shift = 10 seconds</li>
-			<li>Recurrance = After Distance = 12 um</li>
+			<li>Delay after Stage Shift = 2 seconds</li>
+			<li>Recurrance = After Centering</li>
 			<li>Focus = Objective lens</li>
 		</ul>
 	</li>
@@ -218,7 +218,6 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 
 ### Part 5 - Focus Determination
 <ol>
-	<li>Retract the screen</li>
 	<li>Activate the Gatan camera. <code>View</code></li>
 	<li>Determine the correction from Sherpa (the defocus used is in the Sherpa window; the set defocus is listed in the current optics parameters on the microscope computer)</li>
 	<li>Adjust the current defocus by the amount calculated above.  This should get you very close to focus.</li>
@@ -250,7 +249,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 
 ## Step 5 - Final Touches and Start
 <ol>
-	<li>Center the ZLP. <code>Gatan Window >> Center ZLP</code></li>
+	<li>Center the ZLP. <code>Gatan Window >> Center ZLP</code>.  Make sure that the microscope is in Data Acquisition mode before centering the ZLP.  If it is not, the ZLP centering will be incorrect.</li>
 	<li><div style='background:pink; color:darkred'><B>CRITICAL - Double Check the Following:</B>
 		<ul>Microscope computer - The stage rotation (alpha) is set to zero. Stage >> Popout >> alpha</ul>
 		<ul>Microscope computer - The Turbo pump is OFF.</ul>
