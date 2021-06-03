@@ -167,7 +167,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 		<ol type="a">
 			<li>Set the microscope optics to the Data Acquisition setting. <code>Preparation >> Data Acquisition >> SET</code></li>
 			<li>Use the control panel joystick to move to an area where you can see the edge of the hole and some carbon.</li>
-			<li>Set the alpha angle to +/- 20 degrees.  This command can be found on the microscope computer under the Stage menu (lower right corner).  You will need to activate the popout extension from the Stage parameters menu to adjust the alpha angle.  The stage should rotate.  The goal is to adjust the Z-height of the stage such that changing alpha +/- 20 degrees keeps the center of the image in place.  Z-height can be adjusted using the control panel (rightmost buttons).</li>
+			<li>Set the alpha angle to +/- 20 degrees.  This command can be found on the microscope computer under the Stage menu (lower right corner) in the Control tab.  You will need to activate the popout extension from the Stage parameters menu to adjust the alpha angle.  The stage should rotate.  The goal is to adjust the Z-height of the stage such that changing alpha +/- 20 degrees keeps the center of the image in place.  Z-height can be adjusted using the control panel (rightmost buttons).</li>
 			<li>When adjusting the height, it is likely necessary to toggle between alpha=0 and alpha=20.</li>
 			<li>When satisfied with the Z-height adjustment, make sure to set alpha back to 0 degrees.</li>
 		</ol>
