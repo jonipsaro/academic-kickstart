@@ -155,7 +155,7 @@ Setting up data collection can be divided into these main steps:
 
 <hr style='margin:35px 0'>
 
-## Step 7 - Manual Centering of the ZLP (optional)
+## Step 6 - Manual Centering of the ZLP (optional)
 <div style='background:pink; color:darkred'><B>IMPORTANT:</B>  Centering the ZLP will disable CDS mode without notification. If centering the ZLP, make sure to double-check that CDS mode is enabled afterward.</div>
 
 <p style='margin-bottom:15px'></p>
@@ -173,7 +173,7 @@ Setting up data collection can be divided into these main steps:
 
 <hr style='margin:35px 0'>
 
-## Step 6 - CDS Mode Gain Reference Collection
+## Step 7 - CDS Mode Gain Reference Collection
 
 <div style='background:pink; color:darkred'><B>CRITICAL:</B>  For Gain Reference Collection, Data Acquisition parameters must already be set and the ZLP should be centered. <BR>This time, do NOT center the ZLP using the automatic ZLP centering function on the Gatan computer. Doing so will cause the camera to come out of CDS mode. If you accidentally center the ZLP this way, make sure to reactivate CDS mode as described above.</div>
 
