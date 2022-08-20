@@ -197,7 +197,7 @@ Setting up data collection can be divided into these main steps:
 	<li>Set the <code>Data Acquisition</code> parameters by clicking <code>Set</code>.</li>
 	<li>When the gain reference is completed, open the Gatan camera. Set the view to <code>1x</code> and click <code>View</code>.
 	<li>Also activate the FFT window.</li>
-	<li>Both the main window and the FFT should be decently flat however with the latest acquisition setups the gain reference is not applied. Any imperfections in the image should be reflected by a similar pattern in the gain reference.  When statisfied <code>Stop View</code>.</li>
+	<li>Both the main window and the FFT should be decently flat however with the latest acquisition setups the gain reference is not applied. Any imperfections in the image should be reflected by a similar pattern in the gain reference. When statisfied <code>Stop View</code>.</li>
 	<li>Bin and export the CDS gain reference. Navigate to <code>C:/ProgramData/Gatan/ReferenceImages/</code>code>. There should be two sets of gain references. One set for non-CDS (i.e. 'normal') mode that are rather stable. The other set are for CDS mode and include the ones you just collected. Open the image, then rebin it. <code>Process >> Re-bin by Two >> Save As...</code>. Make sure NOT to overwrite the original. Change the name following the convention CDSbinnedgainrefMMDDYY.mrc. Save it in the DoseFractions folder.</li>
 	<li>Set the <code>Data Acquisition</code> parameters by clicking <code>Set</code>.</li><li>Activate the Gatan camera (<code>View</code>), check that the empty image quality is reasonable (although keep in mind that it is not gain corrected), and record the empty dose. This should be something around 14 electrons/pixel/second.</li>
 </ol>
@@ -280,9 +280,9 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 	<li>Determine the correction from Sherpa (the defocus used is in the Sherpa window; the set defocus is listed in the current optics parameters on the microscope computer)</li>
 	<li>Adjust the current defocus by the amount calculated above. This should get you very close to focus.</li>
 	<li>Check for focus using the FFT window. It should be quite good. Make fine adjustments if needed using the defocus knob on control panel.</li>
-	<li>If the defocus setting at focus is more than 0.2 microns from what is expected, return to Part 3 - Initialize Direct Alignments and try again.</li>
-	<li>Reset the defocus to 0 using the control panel</li>
-	<li>Deactivate the Gatan camera. <code>Stop View</code></li>
+	<li>If the defocus setting at focus is more than 0.2 microns from what is expected, <code>Stop View</code> and return to Part 3 - Initialize Direct Alignments for another try.</li>
+	<li>Reset the defocus to 0 using the control panel.</li>
+	<li>Deactivate the Gatan camera. <code>Stop View</code>.</li>
 </ol>
 
 ### Part 6 - Final Astigmatism Correction and ComaFree Alignment
