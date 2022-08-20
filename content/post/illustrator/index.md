@@ -146,6 +146,9 @@ http://ian.umces.edu/imagelibrary/index-42.html
 > http://paletton.com <br>
 https://color.adobe.com/
 
+### Visual review of color theory in design:
+> https://www.websiteplanet.com/blog/color-matters-reasons-color-choose-logo-important/
+
 ### Suggested font sizes for academic posters:
 >Title (top, centered): 85pt (45-130pt range) <br> 
 Author line (second line, centered): 36-44pt font <br>
