@@ -67,7 +67,7 @@ Setting up data collection can be divided into these main steps:
 	<li>Prepare gain references on the Gatan Computer. <code>Camera >>  Prepare Gain Reference</code>.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer. You will need to adjust the beam intensity. Use the numbers on the Gatan display and adjust to the required value.</li>
 	<li>Manually check the beam centering by inserting the screen. If needed (i.e. the beam center is very far off), adjust the beam center postion by selecting <code>Direct Alignments >> Beamshift Center</code> on the microscope computer and adjusting the beam position with multifunction X and multifunction Y on the control pad. Center on the green circle. Retract the screen.</li>
-	<li>After the first set (linear) of gain references have been collected, make sure to re-set the <code>Data Acquisition</code> settings display for EPU. Click <code>Set</code>. Note:  The spot size should change back to 5 and the objective aperature should automatically change to 100 um if it was not already at 100 um and the C2 aperature should retunr to 70.</li>
+	<li>After the first set (linear) of gain references have been collected, make sure to re-set the <code>Data Acquisition</code> settings display for EPU. Click <code>Set</code>. Note:  The spot size should change back to 5 and the objective aperature should automatically change to 100 um if it was not already at 100 um and the C2 aperature should return to 70.</li>
 	<li>After the linear gain references have been collected, the counted mode gain reference collection window will appear. Check <code>Expert Mode</code> and make sure the <code>Dose Rate</code> is set to 10.0 and the <code>Gain Ref Electron</code> is at 3000. Click <code>OK</code>.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer (similar to before). You will need to adjust the beam intensity. Use the numbers on the Gatan display and adjust to the required value.</li>
 	<li>When the gain reference is completed, open the Gatan camera. <code>View</code>.
@@ -132,10 +132,10 @@ Setting up data collection can be divided into these main steps:
 	<li>Add the collection and focus parameters. Defocus values that are typically used begin around -2.2 microns and continue to -0.8 microns. To add these, enter the desired defocus value and click on the :page_facing_up: icon next to the entry field. It should now be present in the defocus values list above. Valeus can be removed by selecting them and clicking on the :wastebasket: icon. Be sure to double check these and ensure that the values are negative!</li>
 	<li>Set the following parameters for Lacey carbon grids:
 		<ul>
-			<li>Delay after Image Shift = 1.5 seconds</li>
-			<li>Delay after Stage Shift = 15 seconds</li>
+			<li>Image Shift Delay = 1.5 seconds</li>
+			<li>Minimum stage settling time = 12 seconds</li>
 			<li>Recurrance = After Distance = 10 microns</li>
-			<li>Focus = Objective lens</li>
+			<li>Focus using = Objective lens</li>
 		</ul>
 	</li>
 	<li>Alternatively, set the following parameters for Quantifoil grids:
@@ -198,7 +198,7 @@ Setting up data collection can be divided into these main steps:
 	<li>When the gain reference is completed, open the Gatan camera. Set the view to <code>1x</code> and click <code>View</code>.
 	<li>Also activate the FFT window.</li>
 	<li>Both the main window and the FFT should be decently flat however with the latest acquisition setups the gain reference is not applied. Any imperfections in the image should be reflected by a similar pattern in the gain reference. When statisfied <code>Stop View</code>.</li>
-	<li>Bin and export the CDS gain reference. Navigate to <code>C:/ProgramData/Gatan/ReferenceImages/</code>code>. There should be two sets of gain references. One set for non-CDS (i.e. 'normal') mode that are rather stable. The other set are for CDS mode and include the ones you just collected. Open the image, then rebin it. <code>Process >> Re-bin by Two >> Save As...</code>. Make sure NOT to overwrite the original. Change the name following the convention CDSbinnedgainrefMMDDYY.mrc. Save it in the DoseFractions folder.</li>
+	<li>Bin and export the CDS gain reference. Navigate to <code>C:/ProgramData/Gatan/ReferenceImages/</code>. There should be two sets of gain references. One set for non-CDS (i.e. 'normal') mode that are rather stable. The other set are for CDS mode and include the ones you just collected. Open the image, then rebin it. <code>Process >> Re-bin by Two >> Save As...</code>. Make sure NOT to overwrite the original. Change the name following the convention CDSbinnedgainrefMMDDYY.mrc. Save it in the DoseFractions folder.</li>
 	<li>Set the <code>Data Acquisition</code> parameters by clicking <code>Set</code>.</li><li>Activate the Gatan camera (<code>View</code>), check that the empty image quality is reasonable (although keep in mind that it is not gain corrected), and record the empty dose. This should be something around 14 electrons/pixel/second.</li>
 </ol>
 
