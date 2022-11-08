@@ -161,6 +161,7 @@ Setting up data collection can be divided into these main steps:
 <p style='margin-bottom:15px'></p>
 
 <ol>
+	<li>Make sure the <code>Data Acquisition</code> parameters are set and active.</li>
 	<li>Adjust the Gatan camera settings to be <code>Low Dose</code>, <code>Linear</code>, <code>1x</code>.</li>
 	<li>Make sure the camera is active by clicking <code>View</code>. 
 	<li>On the Gatan computer open the <code>Filter Control</code> window.</li>
@@ -191,7 +192,7 @@ Setting up data collection can be divided into these main steps:
 	<li>Prepare gain references on the Gatan Computer. <code>Camera >>  Prepare Gain Reference</code>.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer. You will need to adjust the beam intensity. Use the numbers on the Gatan display and adjust to the required value.</li>
 	<li>Manually check the beam centering by inserting the screen. If needed (i.e. the beam center is very far off), adjust the beam center postion by selecting <code>Direct Alignments >> Beamshift Center</code> on the microscope computer and adjusting the beam position with multifunction X and multifunction Y on the control pad. Center on the green circle. Retract the screen.</li>
-	<li>After the first set (linear) of gain references have been collected, make sure to re-set the <code>Data Acquisition</code> settings display for EPU. Click <code>Set</code>. Note:  The spot size should change back to 5 and the objective aperature should automatically change to 100 um if it was not already at 100 um and the C2 aperature should retunr to 70.</li>
+	<li>After the first set (linear) of gain references have been collected, make sure to re-set the <code>Data Acquisition</code> settings display for EPU. Click <code>Set</code>. Note:  The spot size should change back to 5 and the objective aperature should automatically change to 100 um if it was not already at 100 um and the C2 aperature should return to 70.</li>
 	<li>After the linear gain references have been collected, the counted mode gain reference collection window will appear. Check <code>Expert Mode</code> and make sure the <code>Dose Rate</code> is set to 10.0 and the <code>Gain Ref Electron</code> is at 3000. Click <code>OK</code>.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer (similar to before). You will need to adjust the beam intensity. Use the numbers on the Gatan display and adjust to the required value.</li>
 	<li>Set the <code>Data Acquisition</code> parameters by clicking <code>Set</code>.</li>
