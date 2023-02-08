@@ -15,18 +15,17 @@ education:
     year: 2004
 email: "jon.ipsaro@gmail.com"
 interests:
-- RNA interference
-- Protein-nucleic acid interactions
 - Structural biology & biophysics
+- Rational drug design
+- Protein-nucleic acid interactions
+- RNA interference
 - Next-generation sequencing
 - Computational biology
 name: Jonathan Ipsaro
 organizations:
-- name: Howard Hughes Medical Institute
-  url: "https://www.hhmi.org/"
-- name: Cold Spring Harbor Laboratory
-  url: "http://www.cshl.edu"
-role: Research Specialist
+- name: Atavistik Bio
+  url: "https://atavistikbio.com/"
+role: Senior Scientist, Structural Biology
 social:
 - icon: paper-plane
   icon_pack: fas

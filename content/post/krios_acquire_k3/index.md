@@ -2,14 +2,14 @@
 authors:
 - admin
 categories: []
-date: "2022-08-16T00:00:00Z"
+date: "2023-01-27T00:00:00Z"
 draft: false
 featured: true
 image:
   caption: 'Titan Krios Data Acquisition Setup'
   focal_point: "top"
   preview_only: false
-lastmod: "2022-08-16T00:00:00Z"
+lastmod: "2023-01-27T00:00:00Z"
 projects: [Outreach]
 title: 'Cryo-EM Data Acquisition with a K3 detector and EPU (CDS Mode)'
 subtitle: 'Quick Reference for cryo-EM data acquisition using EPU on the Titan Krios  :snowflake:'
@@ -40,7 +40,7 @@ Setting up data collection can be divided into these main steps:
 
 ## Step 1 - Tune the GIF (optional)
 <ol>
-	<li>Using the microscope computer, set the <code>Condenser Aperature</code> to 150.</li>
+	<li>Using the microscope computer, set the <code>Condenser Aperture</code> to 150.</li>
 	<li>If needed, the position of the slit can be moved manually. To do so, activate the camera <code>View</code>, click on the Gatan Filter Control Window (<code>Gatan >> Windows >> Filter Control</code>), and use the keyboard arrow keys to adjust.</li>
 	<li><code>Stop View</code></li>
 	<li>Set the spot size to 2 using the microscope control pad.</li>
@@ -60,14 +60,14 @@ Setting up data collection can be divided into these main steps:
 <ol>
 	<li>Navigate to an empty grid square.</li>
 	<li>Check that the acquisiton parameters in EPU are reasonable. <code>Preparation >> Data Acquisition >> Preview</code></li>
-	<li>On the microscope computer, set the <code>Aperature</code> to 150.</li>
+	<li>On the microscope computer, set the <code>Aperture</code> to 150.</li>
 	<li>Using the microscope control panel, set the spot size to 2.</li>
 	<li>On the microscope computer, insert the screen and check for fringes. If fringes are present, adjust the beam intensity using the control panel knobs and the beam position using the track ball.</li>
 	<li>Gain references will need to be collected in both counted and linear modes. Adjust the Gatan camera settings to be <code>Low Dose</code>, <code>Counted</code>, <code>0.5x</code>. Note:  If the camera is set to <code>Counted</code> then the gain reference acquisition will automatically advance from counted to linear mode. If the camera is set to <code>Linear</code>, only the linear gain references will be collected. That is not what you want.</li>
 	<li>Prepare gain references on the Gatan Computer. <code>Camera >>  Prepare Gain Reference</code>.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer. You will need to adjust the beam intensity. Use the numbers on the Gatan display and adjust to the required value.</li>
 	<li>Manually check the beam centering by inserting the screen. If needed (i.e. the beam center is very far off), adjust the beam center postion by selecting <code>Direct Alignments >> Beamshift Center</code> on the microscope computer and adjusting the beam position with multifunction X and multifunction Y on the control pad. Center on the green circle. Retract the screen.</li>
-	<li>After the first set (linear) of gain references have been collected, make sure to re-set the <code>Data Acquisition</code> settings display for EPU. Click <code>Set</code>. Note:  The spot size should change back to 5 and the objective aperature should automatically change to 100 um if it was not already at 100 um and the C2 aperature should return to 70.</li>
+	<li>After the first set (linear) of gain references have been collected, make sure to re-set the <code>Data Acquisition</code> settings display for EPU. Click <code>Set</code>. Note:  The spot size should change back to 5 and the objective aperture should automatically change to 100 um if it was not already at 100 um and the C2 aperture should return to 70.</li>
 	<li>After the linear gain references have been collected, the counted mode gain reference collection window will appear. Check <code>Expert Mode</code> and make sure the <code>Dose Rate</code> is set to 10.0 and the <code>Gain Ref Electron</code> is at 3000. Click <code>OK</code>.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer (similar to before). You will need to adjust the beam intensity. Use the numbers on the Gatan display and adjust to the required value.</li>
 	<li>When the gain reference is completed, open the Gatan camera. <code>View</code>.
@@ -112,7 +112,7 @@ Setting up data collection can be divided into these main steps:
 	<li>Enter a path for the data (the folder will be created automatically). Images should be saved as <code>MRC</code> format.</li>
 	<li>Double-check the Atlas acquisition parameters <code>Preparation > Atlas</code>. For screening, a magnification 135x of is used to increase speed. For data collection atlases, a magnification of 175x is preferred.</li>
 	<li>Select the grid to be atlased.</li>
-	<li>Ensure that the objective aperature it out.</li>
+	<li>Ensure that the objective aperture it out.</li>
 	<li>Begin the atlas acquisition by clicking <code>Start</code>.</li>
 </ol>
 
@@ -185,14 +185,14 @@ Setting up data collection can be divided into these main steps:
 	<li>Make sure the Gatan is set to CDS mode <code>Technique Manager >> Low Dose >> EF-CCD Camera >> Gear Icon (to the right of "View").</code>  Make sure to set <code>Corrections: Unprocessed</code>, <code>Correct defects: Checked</code>, <code>CDS Mode: Checked</code></li>
 	<li>Navigate to an empty grid square.</li>
 	<li>Check that the acquisiton parameters in EPU are reasonable. <code>Preparation >> Data Acquisition >> Preview</code></li>
-	<li>On the microscope computer, set the <code>Condenser Aperature</code> to 150.  Just select <code>150</code>.  Do NOT click adjust.</li>
+	<li>On the microscope computer, set the <code>Condenser Aperture</code> to 150.  Just select <code>150</code>.  Do NOT click adjust.</li>
 	<li>Using the microscope control panel, set the spot size to 2.</li>
 	<li>On the microscope computer, insert the screen and check for fringes. If fringes are present, adjust the beam intensity using the control panel knobs and the beam position using the track ball.</li>
 	<li>Gain references will need to be collected in both counted and linear modes. Adjust the Gatan camera settings to be <code>Low Dose</code>, <code>Counted</code>, <code>0.5x</code>. Note:  If the camera is set to <code>Counted</code> then the gain reference acquisition will automatically advance from counted to linear mode. If the camera is set to <code>Linear</code>, only the linear gain references will be collected. That is not what you want.</li>
 	<li>Prepare gain references on the Gatan Computer. <code>Camera >>  Prepare Gain Reference</code>.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer. You will need to adjust the beam intensity. Use the numbers on the Gatan display and adjust to the required value.</li>
 	<li>Manually check the beam centering by inserting the screen. If needed (i.e. the beam center is very far off), adjust the beam center postion by selecting <code>Direct Alignments >> Beamshift Center</code> on the microscope computer and adjusting the beam position with multifunction X and multifunction Y on the control pad. Center on the green circle. Retract the screen.</li>
-	<li>After the first set (linear) of gain references have been collected, make sure to re-set the <code>Data Acquisition</code> settings display for EPU. Click <code>Set</code>. Note:  The spot size should change back to 5 and the objective aperature should automatically change to 100 um if it was not already at 100 um and the C2 aperature should return to 70.</li>
+	<li>After the first set (linear) of gain references have been collected, make sure to re-set the <code>Data Acquisition</code> settings display for EPU. Click <code>Set</code>. Note:  The spot size should change back to 5 and the objective aperture should automatically change to 100 um if it was not already at 100 um and the C2 aperture should return to 70.</li>
 	<li>After the linear gain references have been collected, the counted mode gain reference collection window will appear. Check <code>Expert Mode</code> and make sure the <code>Dose Rate</code> is set to 10.0 and the <code>Gain Ref Electron</code> is at 3000. Click <code>OK</code>.</li>
 	<li>Follow the instructions when prompted by the Gatan Computer (similar to before). You will need to adjust the beam intensity. Use the numbers on the Gatan display and adjust to the required value.</li>
 	<li>Set the <code>Data Acquisition</code> parameters by clicking <code>Set</code>.</li>
@@ -312,7 +312,7 @@ Overview:  This part of the protocol will serve to tune the eucentric height and
 	<li><div style='background:pink; color:darkred'><B>CRITICAL - Double Check the Following:</B>
 		<ul>Microscope computer - The stage rotation (alpha) is set to zero. Stage >> Popout >> alpha</ul>
 		<ul>Microscope computer - The Turbo pump is OFF.</ul>
-		<ul>Microscope computer - The 100 um objective aperature is inserted.<BR>Note:  If the objective was not inserted, it is necessary to redo the direct alignments.</ul>
+		<ul>Microscope computer - The 100 um objective aperture is inserted.<BR>Note:  If the objective was not inserted, it is necessary to redo the direct alignments.</ul>
 		<ul>Gatan computer - The camera mode is Counted.</ul>
 	</div></li>
 	<li>Start the automated acquisition <code>EPU >> Automated Acquistion >> Start Run!</code></li>

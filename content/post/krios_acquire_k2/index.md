@@ -43,7 +43,7 @@ Setting up data collection can be divided into these main steps:
 <ol>
 	<li>Navigate to an empty grid square.</li>
 	<li>Check that the acquisiton parameters in EPU are reasonable.  <code>Preparation >> Data Acquisition >> Preview</code></li>
-	<li>On the microscope computer, set the <code>Aperature</code> to 150.</li>
+	<li>On the microscope computer, set the <code>Aperture</code> to 150.</li>
 	<li>Using the microscope control panel, set the spot size (4 for 200 kV; 3 for 300 kV).</li>
 	<li>Prepare gain references on the Gatan Computer.  <code>Camera >>  Prepare Gain References</code>.  Click <code>OK</code></li>
 	<li>On the microscope computer, lift the screen and check for fringes.  If fringes are present, adjust the beam intensity using the control panel knobs.</li>
@@ -60,7 +60,7 @@ Setting up data collection can be divided into these main steps:
 	<li><code>Center ZLP</code>.</li>
 	<li><code>View</code>.  This should again be flat.</li>
 	<li><code>Stop View</code>.</li>
-	<li>Using the microscope computer, put in the condenser aperature.  If needed, the position of the slit can be moved manually.  To do so, click on the Gatan Filter Control Window (<code>Gatan >> Windows >> Filter Control</code>) and use the keyboard arrow keys to adjust.</li>
+	<li>Using the microscope computer, put in the condenser aperture.  If needed, the position of the slit can be moved manually.  To do so, click on the Gatan Filter Control Window (<code>Gatan >> Windows >> Filter Control</code>) and use the keyboard arrow keys to adjust.</li>
 	<li><code>Stop View</code></li>
 	<li>Set the spot size to 5 using the microscope control pad.</li>
 	<li>On the Gatan computer <code>Tune GIF >> Full</code>.</li>
