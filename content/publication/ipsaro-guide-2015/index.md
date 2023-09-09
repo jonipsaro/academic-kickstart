@@ -1,7 +1,7 @@
 ---
 title: "From guide to target: molecular insights into eukaryotic RNA-interference machinery"
 date: 2015-01-22
-authors: ["<B>Jonathan J. Ipsaro</B>", "Leemor Joshua-Tor"]
+authors: ["**Jonathan J. Ipsaro**", "Leemor Joshua-Tor"]
 publication_types: ["2"]
 abstract: Since its relatively recent discovery, RNA interference (RNAi) has emerged as a potent, specific and ubiquitous means of gene regulation. Through a number of pathways that are conserved in eukaryotes from yeast to humans, small noncoding RNAs direct molecular machinery to silence gene expression. In this Review, we focus on mechanisms and structures that govern RNA silencing in higher organisms. In addition to highlighting recent advances, we discuss parallels and differences among RNAi pathways. Together, the studies reviewed herein reveal the versatility and programmability of RNA-induced silencing complexes and emphasize the importance of both upstream biogenesis and downstream silencing factors.<img src='featured.png' alt='Mechanisms of RNAi' style='width:95%;margin-left:auto;margin-right:auto'>
 featured: false

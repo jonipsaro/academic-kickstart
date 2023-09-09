@@ -38,7 +38,7 @@ social:
   link: https://orcid.org/0000-0002-2743-3776
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/jonathan-ipsaro-7b1914b0
+  link: https://www.linkedin.com/in/jon-ipsaro
 - icon: github
   icon_pack: fab
   link: https://github.com/jonipsaro
