@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Cryo-EM structure of DDM1 bound to nucleo
 featured: true
 tags: ["DDM1", "nucleosome", "epigenetic", "cryo-EM"]
 doi: "10.1016/j.cell.2023.08.001"
-publication: "Cell. 2023 Aug 24"
+publication: "Cell. 2023 Aug 24; 186(19):4100-4116"
 image:
   caption: 'DDM1 Nucleosome Remodeling'
   focal_point: ""

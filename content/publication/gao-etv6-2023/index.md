@@ -7,7 +7,7 @@ abstract: The EWS-FLI1 fusion oncoprotein deregulates transcription to initiate 
 featured: false
 tags: ["EWS-FLI1", "SOX11", "CRISPR", "Ewing sarcoma"]
 doi: "10.1038/s41556-022-01060-1"
-publication: "Nat Cell Biol. 2023 Jan 19."
+publication: "Nat Cell Biol. 2023 Jan 19; 25(2):298-308"
 image:
   caption: 'ETV6 dependency in Ewing sarcoma'
   focal_point: ""

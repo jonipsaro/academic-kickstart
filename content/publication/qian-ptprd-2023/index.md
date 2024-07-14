@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Antibody-induced dimerization of PTPRD' s
 featured: false
 tags: ["PTPRD", "ECD", "Antibody", "Biophysics"]
 doi: "doi: 10.1101/gad.350713.123"
-publication: "Genes Dev. 2023 Sept 05"
+publication: "Genes Dev. 2023 Sept 05. Aug 1; 37(15-16):743-759"
 image:
   caption: 'Antibody-induced dimerization of PTPRD'
   focal_point: ""

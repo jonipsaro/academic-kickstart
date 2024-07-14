@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='OCA-T1 and POU2F3' style='width:50%;float
 featured: false
 tags: ["OCA-T1", "OCA-T2", "POU2F3", "C11orf53", "T-cell", "Tuft", "lung", "octamer", "DNA", "transcription", "mucosa"]
 doi: "0.1038/s41586-022-04842-7"
-publication: "Nature. 2022 Jul; 607(7917):169-175. Epub 2022 May 16."
+publication: "Nature. 2022 Jul; 607(7917):169-175"
 image:
   caption: 'OCA-T1 and POU2F3'
   focal_point: ""
