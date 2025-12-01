@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Structure of the spectrin tetramerization
 featured: false
 tags: ["Crystallography", "X-Ray", "Elliptocytosis", "Hereditary", "Erythrocyte Membrane", "Humans", "Mutagenesis", "Site-Directed", "Mutation", "Protein Binding", "Protein Multimerization", "Protein Structure", "Quaternary", "Protein Structure", "Tertiary", "Spectrin", "Structure-Activity Relationship"]
 doi: "10.1182/blood-2010-01-261396"
-publication: "Blood. 2010 Jun 10;115(23):4843-52."
+publication: "Blood. 2010 Jun 10; 115(23):4843-52."
 image:
   caption: 'Structure of the spectrin tetramerization domains'
   focal_point: ""

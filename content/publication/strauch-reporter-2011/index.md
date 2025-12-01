@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Gadolinium contrast agent for HaloTag' st
 featured: false
 tags: ["Contrast Media", "Gadolinium", "Luminescent Proteins", "Magnetic Resonance Imaging", "Molecular Structure", "Organometallic Compounds", "Stereoisomerism"]
 doi: "10.1021/ja206134b"
-publication: "J Am Chem Soc. 2011 Oct 19;133(41):16346-9."
+publication: "J Am Chem Soc. 2011 Oct 19; 133(41):16346-9."
 image:
   caption: 'Gadolinium contrast agent for HaloTag'
   focal_point: ""

@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Drug-resistant Dot1L' style='width:50%;fl
 featured: false
 tags: ["Alleles", "Animals", "Antineoplastic Agents", "Benzimidazoles", "Cell Line", "Cell Line", "Tumor", "Cell Proliferation", "Clustered Regularly Interspaced Short Palindromic Repeats", "CRISPR-Cas Systems", "Drug Resistance", "Neoplasm", "Enhancer of Zeste Homolog 2 Protein", "HEK293 Cells", "Humans", "INDEL Mutation", "Methyltransferases", "Mice", "Models", "Molecular", "Mutagenesis", "Neoplasms"]
 doi: "10.1371/journal.pone.0172177"
-publication: "PLoS One. 2017 Feb 23;12(2):e0172177."
+publication: "PLoS One. 2017 Feb 23; 12(2):e0172177."
 image:
   caption: 'Drug-resistant Dot1L'
   focal_point: ""

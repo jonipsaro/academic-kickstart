@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Structures of the spectrin-ankyrin intera
 featured: false
 tags: ["Amino Acid Sequence", "Ankyrins", "Binding Sites", "Crystallography", "X-Ray", "Humans", "Models", "Biological", "Models", "Molecular", "Molecular Conformation", "Molecular Sequence Data", "Protein Interaction Domains and Motifs", "Protein Interaction Mapping", "Sequence Homology", "Amino Acid", "Spectrin"]
 doi: "10.1182/blood-2008-10-184358"
-publication: "Blood. 2009 May 28;113(22):5385-93."
+publication: "Blood. 2009 May 28; 113(22):5385-93."
 image:
   caption: 'Structures of the spectrin/ankyrin interacting domains'
   focal_point: ""

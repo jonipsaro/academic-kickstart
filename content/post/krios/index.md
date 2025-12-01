@@ -176,7 +176,7 @@ tags:
 	<li>Temporarily remove the wands and forceps from the transfer station.  Place them away from the transfer station to ensure they do not cool (and consequently get condensation on them) while cooling the transfer station (next step).</li>
 	<li>Apply the plastic cover to the transfer station.</li>
 	<li>Use the large funnel to fill the chamber with liquid nitrogen until the nitrogen level just covers the aluminum portion of the transfer pedestal.
-		<br><i>Note: Do not cover the brass portion of the pedestal.  If the brass portion does get covered, evaporate the addtional nitrogen by submerging the end of any metal tool into the areas with excess nitrogen.  It should boil off fairly quickly.</i></li>
+		<br><i>Note: Do not cover the brass portion of the pedestal.  If the brass portion does get covered, evaporate the additional nitrogen by submerging the end of any metal tool into the areas with excess nitrogen.  It should boil off fairly quickly.</i></li>
 </ol>
 
 

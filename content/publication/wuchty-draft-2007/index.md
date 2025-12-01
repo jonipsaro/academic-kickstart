@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Predicted protein interactions in malaria
 featured: false
 tags: ["Animals", "Evolution", "Molecular", "Malaria", "Plasmodium falciparum", "Protein Interaction Mapping", "Proteome", "Proteomics", "Protozoan Proteins"]
 doi: "10.1021/pr0605769"
-publication: "J Proteome Res. 2007 Apr;6(4):1461-70."
+publication: "J Proteome Res. 2007 Apr; 6(4):1461-70."
 image:
   caption: 'Predicted protein interactions in malaria'
   focal_point: ""

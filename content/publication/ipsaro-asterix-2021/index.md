@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Asterix/Gtsf1 binds tRNAs' style='width:5
 featured: false
 tags: ["Asterix", "Gtsf1", "piRNA", "RNAi", "cryo-EM", "NMR", "bioinformatics", "next-gen sequencing"]
 doi: "10.1016/j.celrep.2021.108914"
-publication: "Cell Reports. 2021 Mar 30;34(13):108914"
+publication: "Cell Reports. 2021 Mar 30; 34(13):108914"
 image:
   caption: 'Asterix/Gtsf1 binds tRNAs'
   focal_point: ""

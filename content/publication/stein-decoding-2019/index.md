@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Model of 1U piRNA bias' style='width:50%;
 featured: false
 tags: ["Animals", "Animals", "Genetically Modified", "Argonaute Proteins", "Drosophila", "Drosophila Proteins", "Female", "Mutation", "Ovary", "Protein Domains", "RNA", "Small Interfering", "Uracil", "Uridine"]
 doi: "10.1038/s41467-019-08803-z"
-publication: "Nat Commun. 2019 Feb 19;10(1):828."
+publication: "Nat Commun. 2019 Feb 19; 10(1):828."
 image:
   caption: 'Model of 1U piRNA bias'
   focal_point: ""

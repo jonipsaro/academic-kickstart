@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Structure of the spectrin/ankyrin complex
 featured: false
 tags: ["Ankyrins", "Binding Sites", "Circular Dichroism", "Crystallography", "X-Ray", "Humans", "Models", "Molecular", "Mutagenesis", "Site-Directed", "Mutation", "Protein Binding", "Protein Conformation", "Protein Interaction Mapping", "Spectrin", "Spectrometry", "Mass", "Matrix-Assisted Laser Desorption-Ionization", "Structure-Activity Relationship", "Surface Plasmon Resonance"]
 doi: "10.1182/blood-2009-11-255604"
-publication: "Blood. 2010 May 20;115(20):4093-101."
+publication: "Blood. 2010 May 20; 115(20):4093-101."
 image:
   caption: 'Structure of the spectrin/ankyrin complex'
   focal_point: ""

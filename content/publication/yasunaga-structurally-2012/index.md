@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Structure of tandem ZU5 domains' style='w
 featured: false
 tags: ["Amino Acid Sequence", "Ankyrins", "Crystallography", "X-Ray", "Erythrocytes", "Humans", "Molecular Sequence Data", "Protein Binding", "Protein Interaction Domains and Motifs", "Protein Structure", "Tertiary", "Spectrin"]
 doi: "10.1016/j.jmb.2012.01.041"
-publication: "J Mol Biol. 2012 Apr 6;417(4):336-50."
+publication: "J Mol Biol. 2012 Apr 6; 417(4):336-50."
 image:
   caption: 'Structure of tandem ZU5 domains'
   focal_point: ""

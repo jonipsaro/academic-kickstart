@@ -7,7 +7,7 @@ abstract: <img src='featured.jpg' alt='BRD4 in leukemia' style='width:50%;float:
 featured: false
 tags: ["Animals", "Catalytic Domain", "Cell Proliferation", "Chromatin Assembly and Disassembly", "DNA-Binding Proteins", "Histone-Lysine N-Methyltransferase", "HL-60 Cells", "Humans", "Leukemia", "Myeloid", "Acute", "Mice", "Nuclear Proteins", "Promoter Regions", "Genetic", "Protein Isoforms", "Transcription Factors"]
 doi: "10.1016/j.molcel.2015.10.033"
-publication: "Mol Cell. 2015 Dec 17;60(6):847-59."
+publication: "Mol Cell. 2015 Dec 17; 60(6):847-59."
 image:
   caption: 'BRD4 in leukemia'
   focal_point: ""

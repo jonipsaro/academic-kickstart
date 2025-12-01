@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Tryp-N proteolytic activity' style='width
 featured: false
 tags: ["arginine", "Lys-N", "LysargiNase", "lysine", "metalloprotease", "proteomics", "thermostable", "Tryp-N", "trypsin", "ulilysin"]
 doi: "10.1021/acs.jproteome.9b00713"
-publication: "J. Proteome Res. 2020 Apr 3;19(4):1459-69."
+publication: "J. Proteome Res. 2020 Apr 3; 19(4):1459-69."
 image:
   caption: 'Tryp-N proteolytic activity'
   focal_point: ""

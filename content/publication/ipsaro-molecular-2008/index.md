@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='Binding of the spectrin/ankyrin interacti
 featured: false
 tags: ["Ankyrins", "Binding Sites", "Calorimetry", "Circular Dichroism", "Drug Stability", "Epitopes", "Erythrocytes", "Humans", "Models", "Molecular", "Protein Binding", "Protein Conformation", "Solutions", "Spectrin"]
 doi: "10.1021/bi702525z"
-publication: "Biochemistry. 2008 Jul 15;47(28):7452-64."
+publication: "Biochemistry. 2008 Jul 15; 47(28):7452-64."
 image:
   caption: 'Binding of the spectrin/ankyrin interaction domains'
   focal_point: ""

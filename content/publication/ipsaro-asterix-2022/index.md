@@ -7,7 +7,7 @@ abstract: <img src='featured.png' alt='GTSF1 evolutionary tree' style='width:50%
 featured: false
 tags: ["Asterix", "Gtsf1", "piRNA", "RNAi", "development", "review", "next-gen sequencing"]
 doi: "10.1002/wrna.1716"
-publication: "Wiley Interdiscip Rev RNA. 2022 Feb 02;e1716"
+publication: "Wiley Interdiscip Rev RNA. 2022 Feb 02; e1716"
 image:
   caption: 'Asterix/GTSF1 Review'
   focal_point: ""

@@ -7,7 +7,7 @@ abstract: Since its relatively recent discovery, RNA interference (RNAi) has eme
 featured: false
 tags: ["Eukaryota", "RNA Interference", "RNA", "Untranslated"]
 doi: "10.1038/nsmb.2931"
-publication: "Nat Struct Mol Biol. 2015 Jan;22(1):20-8."
+publication: "Nat Struct Mol Biol. 2015 Jan; 22(1):20-8."
 image:
   caption: 'Mechanisms of RNAi'
   focal_point: ""
